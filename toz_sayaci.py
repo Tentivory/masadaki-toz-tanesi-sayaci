@@ -35,6 +35,9 @@ def bilimsel_toz_sayimi():
     print(f"Kaçan tozlar: {kacis_edenler} (Özgür toz hakkı tanındı)")
     print("Tavsiye: Masayı üfleyin. Ama sayım geçerliliğini yitirmez.")
     print("\nNot: Bu algoritma NASA, CERN ve komşunuzun kedisi tarafından onaylanmıştır.")
+    print("\nEK GÜVENLİK: Tozlar intikam almasın diye sayım sonrası 3 saniye bekleniyor...")
+    time.sleep(3)
+    print("Güvenlik sağlandı. Tozlar sakin.")
 
 if __name__ == "__main__":
     try:
